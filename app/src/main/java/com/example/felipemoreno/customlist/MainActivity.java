@@ -10,8 +10,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     ListView list;
-    String[] refri = {"Coca-Cola", "Fanta"};
-    Integer[] imageId = {R.drawable.coca, R.drawable.fanta};
+    String[] refri = {"Coca-Cola", "Fanta", "Pepsi"};
+    Integer[] imageId = {R.drawable.coca, R.drawable.fanta, R.drawable.pepsi};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
